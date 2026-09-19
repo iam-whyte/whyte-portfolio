@@ -3,4 +3,4 @@ if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.to
 nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open navigation')}));}
 
 const oaarsPreview=document.querySelector('.screen-oaars');
-if(oaarsPreview){oaarsPreview.innerHTML='<img src="oaars-preview.svg" alt="OAARS Online Application, Admission & Registration System preview" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block">';}
+if(oaarsPreview){oaarsPreview.innerHTML='<img src="oaars-preview.webp" alt="OAARS Online Application, Admission & Registration System preview" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block">';}
